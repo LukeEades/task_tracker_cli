@@ -4,21 +4,21 @@
 <p> 
   
     # to add a new task
-    ./task-tracker add "Example task"
+    ./tracker add "Example task"
     
     # updates task with id 1
-    ./task-tracker update 1 "Exciting new description"
-    ./task-tracker delete 1
+    ./tracker update 1 "Exciting new description"
+    ./tracker delete 1
     
     # mark a task with id 1 as in-progress or done
-    ./task-tracker mark-in-progress 1
-    ./task-tracker mark-done 1
+    ./tracker mark-in-progress 1
+    ./tracker mark-done 1
     
     # list all tasks
-    ./task-tracker list
+    ./tracker list
     
     # list tasks with specific statuses
-    ./task-tracker list done
-    ./task-tracker list todo
-    ./task-tracker list in-progress
+    ./tracker list done
+    ./tracker list todo
+    ./tracker list in-progress
 </p>
